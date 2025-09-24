@@ -18,7 +18,7 @@ class CvController extends Controller
             'birthplace' => 'Karawang',
             'birthdate' => '24 februari 2005',
             'gender' => 'Perempuan',
-            'website' => 'https://instagram.com/tasyaachaa',
+            'website' => 'https://www.instagram.com/acaprmsty_/',
             'hobbies' => 'Bernyanyi, Menggambar, Membaca, Traveling',
             'summary' => 'Mahasiswa Aktif Universitas Bina Sarana Informatika, jurusan Teknik Informatika. Saya adalah pribadi yang kreatif, komunikatif, dan senang belajar hal baru. Aktif di organisasi kampus dan memiliki pengalaman melatih pramuka di sekolah dasar.'
         ];
@@ -55,7 +55,7 @@ class CvController extends Controller
             'birthplace' => 'Karawang',
             'birthdate' => '24 februari 2005',
             'gender' => 'Perempuan',
-            'website' => 'https://instagram.com/tasyaachaa',
+            'website' => 'https://www.instagram.com/acaprmsty_/',
             'hobbies' => 'Bernyanyi, Menggambar, Membaca, Traveling',
             'summary' => 'Mahasiswa Aktif Universitas Bina Sarana Informatika, jurusan Teknik Informatika. Saya adalah pribadi yang kreatif, komunikatif, dan senang belajar hal baru. Aktif di organisasi kampus dan memiliki pengalaman melatih pramuka di sekolah dasar.'
         ];
@@ -128,7 +128,7 @@ class CvController extends Controller
             'birthplace' => 'Karawang',
             'birthdate' => '24 februari 2005',
             'gender' => 'Perempuan',
-            'website' => 'https://instagram.com/tasyaachaa',
+            'website' => 'https://www.instagram.com/acaprmsty_/',
             'hobbies' => 'Bernyanyi, Menggambar, Membaca, Traveling',
             'summary' => 'Mahasiswa Aktif Universitas Bina Sarana Informatika, jurusan Teknik Informatika. Saya adalah pribadi yang kreatif, komunikatif, dan senang belajar hal baru. Aktif di organisasi kampus dan memiliki pengalaman melatih pramuka di sekolah dasar.'
         ];
