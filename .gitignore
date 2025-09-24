@@ -16,3 +16,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Setup files (keep these in repo)
+!setup.bat
+!SETUP_INSTRUCTIONS.md
