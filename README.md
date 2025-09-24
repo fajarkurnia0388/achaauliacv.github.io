@@ -205,8 +205,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Tasya Aulia Pramesty**
 
 -   Email: 19232267@bsi.ac.id
--   Instagram: [@tasyaachaa](https://instagram.com/tasyaachaa)
--   GitHub: [@fajarkurnia0388](https://github.com/fajarkurnia0388)
+-   GitHub: [@tasyaachaa](https://github.com/tasyaachaa)
+-   Editor: [@fajarkurnia0388](https://github.com/fajarkurnia0388)
 
 ## 🙏 Acknowledgments
 
