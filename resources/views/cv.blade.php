@@ -17,7 +17,7 @@
             --text-secondary: #6b7280;
             --bg-primary: #ffffff;
             --bg-secondary: #f8fafc;
-            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #ec4899 100%);
             --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
             --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
             --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -347,10 +347,10 @@
 
         .download-section {
             text-align: center;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(236, 72, 153, 0.05));
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(118, 75, 162, 0.05), rgba(236, 72, 153, 0.08));
             border-radius: 16px;
             padding: 2rem;
-            border: 1px solid rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(236, 72, 153, 0.2);
         }
 
         .floating-elements {
@@ -366,7 +366,7 @@
         .floating-circle {
             position: absolute;
             border-radius: 50%;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(118, 75, 162, 0.1), rgba(236, 72, 153, 0.15));
             animation: float 6s ease-in-out infinite;
         }
 
@@ -564,7 +564,7 @@
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="{{ route('download-html') }}" class="btn-modern w-100 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #10b981, #059669); font-size: 0.9rem; padding: 0.6rem 1rem;">
+                                <a href="{{ route('download-html') }}" class="btn-modern w-100 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #8b5cf6, #a855f7, #ec4899); font-size: 0.9rem; padding: 0.6rem 1rem;">
                                     <i class="fas fa-file-code me-2"></i>
                                     <span>HTML</span>
                                 </a>
