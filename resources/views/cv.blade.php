@@ -493,8 +493,8 @@
                 </span>
             </div>
             
-            <a href="mailto:{{ $profile['email'] }}" class="btn-modern">
-                <i class="fas fa-paper-plane"></i>
+            <a href="https://api.whatsapp.com/send/?phone=%2B6281617326769&text&type=phone_number&app_absent=0" class="btn-modern" target="_blank">
+                <i class="fab fa-whatsapp"></i>
                 <span>Hubungi Saya</span>
             </a>
         </div>
