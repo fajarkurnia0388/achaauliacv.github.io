@@ -1,66 +1,202 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CV Website - Tasya Aulia Pramesty
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A modern, responsive CV website built with Laravel 10 featuring PDF download functionality and beautiful UI design.
 
-## About Laravel
+![CV Website Preview](https://img.shields.io/badge/Status-Live-brightgreen)
+![Laravel Version](https://img.shields.io/badge/Laravel-10.x-red)
+![PHP Version](https://img.shields.io/badge/PHP-8.1+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🌟 Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- ✅ **Responsive Design** - Beautiful UI that works on all devices
+- ✅ **PDF Download** - Generate and download CV as PDF
+- ✅ **Modern UI** - Clean, professional design with Bootstrap
+- ✅ **Fast Loading** - Optimized for performance
+- ✅ **SEO Friendly** - Proper meta tags and structure
+- ✅ **Cross-browser Compatible** - Works on all modern browsers
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Quick Start
 
-## Learning Laravel
+### Prerequisites
+- PHP 8.1 or higher
+- Composer
+- Git
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Installation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+#### Method 1: Automated Setup (Windows)
+```bash
+# Clone the repository
+git clone https://github.com/fajarkurnia0388/achaauliacv.github.io.git
+cd achaauliacv.github.io
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# Run automated setup
+setup.bat
+```
 
-## Laravel Sponsors
+#### Method 2: Manual Setup
+```bash
+# Clone the repository
+git clone https://github.com/fajarkurnia0388/achaauliacv.github.io.git
+cd achaauliacv.github.io
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+# Install dependencies
+composer install --no-dev --optimize-autoloader
 
-### Premium Partners
+# Setup environment
+copy .env.example .env
+php artisan key:generate
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+# Start the server
+php artisan serve
+```
 
-## Contributing
+### Access the Website
+Open your browser and go to: `http://127.0.0.1:8000`
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📁 Project Structure
 
-## Code of Conduct
+```
+achaauliacv.github.io/
+├── app/
+│   └── Http/Controllers/
+│       └── CvController.php          # Main CV controller
+├── resources/
+│   └── views/
+│       ├── cv.blade.php              # Main CV page
+│       └── cv-pdf.blade.php          # PDF template
+├── public/
+│   ├── foto-profile.jpg              # Profile photo
+│   └── cv-tasya.pdf                  # Sample CV PDF
+├── routes/
+│   └── web.php                       # Route definitions
+├── setup.bat                         # Windows setup script
+└── SETUP_INSTRUCTIONS.md            # Detailed setup guide
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🛠️ Technology Stack
 
-## Security Vulnerabilities
+- **Backend**: Laravel 10
+- **Frontend**: HTML5, CSS3, Bootstrap 5
+- **PDF Generation**: domPDF
+- **PHP Version**: 8.1+
+- **Database**: SQLite (default)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 📋 Available Routes
 
-## License
+| Route | Method | Description |
+|-------|--------|-------------|
+| `/` | GET | Main CV page |
+| `/cv` | GET | CV page (alias) |
+| `/download-cv` | GET | Download CV as PDF |
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🎨 Customization
+
+### Updating Personal Information
+Edit the data in `app/Http/Controllers/CvController.php`:
+
+```php
+$profile = [
+    'name' => 'Your Name',
+    'email' => 'your.email@example.com',
+    'phone' => 'your-phone-number',
+    // ... other profile data
+];
+```
+
+### Changing Profile Photo
+1. Replace `public/foto-profile.jpg` with your photo
+2. Keep the same filename or update the path in the controller
+
+### Modifying Design
+- Edit `resources/views/cv.blade.php` for main page styling
+- Edit `resources/views/cv-pdf.blade.php` for PDF styling
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**Error: "vendor/autoload.php not found"**
+```bash
+composer install
+```
+
+**Error: "Application key not set"**
+```bash
+php artisan key:generate
+```
+
+**Error: "Class not found"**
+```bash
+composer dump-autoload
+```
+
+**PDF download not working**
+- Check if domPDF is installed: `composer show dompdf/dompdf`
+- Verify file permissions on storage directory
+
+### Getting Help
+1. Check the [SETUP_INSTRUCTIONS.md](SETUP_INSTRUCTIONS.md) file
+2. Ensure all prerequisites are installed
+3. Verify PHP and Composer versions
+
+## 📱 Screenshots
+
+### Desktop View
+- Clean, professional layout
+- Easy-to-read typography
+- Responsive navigation
+
+### Mobile View
+- Mobile-optimized design
+- Touch-friendly interface
+- Fast loading times
+
+## 🚀 Deployment
+
+### GitHub Pages
+This project can be deployed to GitHub Pages using GitHub Actions or manual deployment.
+
+### Shared Hosting
+1. Upload all files to your hosting directory
+2. Run `composer install --no-dev --optimize-autoloader`
+3. Set up your web server to point to the `public` directory
+4. Configure your database if needed
+
+### VPS/Dedicated Server
+1. Clone the repository
+2. Install dependencies
+3. Configure web server (Apache/Nginx)
+4. Set up SSL certificate
+5. Configure domain and DNS
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Tasya Aulia Pramesty**
+- Email: 19232267@bsi.ac.id
+- Instagram: [@tasyaachaa](https://instagram.com/tasyaachaa)
+- GitHub: [@fajarkurnia0388](https://github.com/fajarkurnia0388)
+
+## 🙏 Acknowledgments
+
+- Laravel Framework
+- Bootstrap for UI components
+- domPDF for PDF generation
+- All contributors and supporters
+
+---
+
+⭐ **Star this repository if you found it helpful!**
