@@ -147,10 +147,10 @@
                 </div>
                 <div class="card p-4 text-center">
                     <div class="section-title mb-3">Download CV</div>
-                    <a href="{{ asset('cv-tasya.pdf') }}" class="btn btn-pink" download>
+                    <a href="{{ route('download-cv') }}" class="btn btn-pink">
                         <i class="fa fa-download"></i> Unduh PDF
                     </a>
-                    <p class="small text-muted mt-2 mb-0">Klik tombol di atas untuk mengunduh CV versi PDF.</p>
+                    <p class="small text-muted mt-2 mb-0">Klik tombol di atas untuk mengunduh CV dalam format PDF yang sebenarnya.</p>
                 </div>
             </div>
         </div>
